@@ -1,0 +1,16 @@
+- Patrón de arquitectura MVVM (use case, servicios, event dispatcher, installer) reactivo junto 
+	con UniRx
+- DoTween para animaciones
+- juego adaptable a resoluciones
+-uso de Firebase y Firestore
+
+- Autenticación de usuario -> firebase autehtication -> login anónimo, register y login con user
+- (firestore - guardado datos usuario)
+- Ranking con datos pre-introducidos (realtime database)
+- Push Notifications (Cloud Messaging)
+- Analíticas por defecto
+- Google ADs AdMob
+
+
+- diagrama:
+	- login anónimo

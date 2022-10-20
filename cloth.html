@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Enric Quilabert Gelabert</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Enric</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">About Me</a></li>
+							<li><a href="games.html">Games</a></li>
+							<li class="active"><a href="projects.html">Projects & Demos</a></li>
+							<li><a href="/cv/cv_enricquilabert.pdf" download>
+								<pdf src="/cv/cv_enricquilabert.pdf" alt="">
+								Download CV</a>
+							</li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://twitter.com/EnricGamedev" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<!--<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+							<!--<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
+							<li><a href="https://github.com/enricqg" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/enricqg/" class="icon brands alt fa-linkedin"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+                    <div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+                                    <h2>Cloth Mesh Physics Project</h2>
+								</header>
+								<p style="text-align:center">A cloth simulation using a particle-spring mesh within a simulation box, taking into account collisions with the walls, ground and a sphere.<br />
+									</p>
+                                <ul class="actions special">
+                                    <li><a href="https://github.com/enricqg/ClothMesh" class="button primary">GitHub Repository</a></li>
+                                </ul>
+							</article>
+
+						<!-- Posts -->
+						
+						
+						<article class="post featured">
+
+							<h3>Demo Recording</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/YS_eQRiwo7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+							<h3><br /><br />Project Overview</h3>
+							<p>
+								<b>Goal</b><br />
+								The objective of this project was to implement a cloth simulation using a particle-spring mesh of 14 x 18 points within a simulation box, taking into account collisions with the walls, ground and a sphere.
+							</p>
+                            <p>
+								<b>GL Framework</b><br />
+								This project was created using an existing GL Framework provided by a teacher with the rendering mesh already implemented. The framerate is fixed to 30fps.
+							</p>
+							
+                            <p><span class="image right"><img src="images/mesh/gui.png" alt="" /></span></p>
+                            <p>
+								<b>Simulation Details</b><br />
+								The Simulation has a mesh that represents a cloth fixed by two points. The Particle System is simulated using either Euler or Verlet. Each particle weighs 1kg.
+							</p>
+                            <p>
+								<b>GUI Control</b><br />
+								The simulation runs alongside a GUI that lets the user control various parameters. There is a reset button, but the simulation automatically resets every 20 seconds.The Mesh starts being fixed, but there is a button to unfix it. Gravity values can be tweaked as well. 
+                                There are various coefficients that will affect the simulation that can be modified to make the mesh bouncier or bigger. There is a button to add a sphere and modify its position and radius. Last, there is a button that makes the particles within the mesh visible.
+							</p>
+
+							<h3><br />Collisions</h3>
+                            <p>
+								
+								The Mesh collides with both the walls and ground and the sphere.
+							</p>
+                            <div class="image fit"><img src="images/mesh/collision_w_sphere.png" alt="" /></div>
+                            <div class="image fit"><img src="images/mesh/collision_w_ground.png" alt="" /></div>
+
+						
+						</article>
+						<article class="post featured">
+							<ul class="actions special">
+								<li><a href="https://github.com/enricqg/ClothMesh" class="button primary">GitHub Repository</a></li>
+							</ul>
+						</article>
+
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section class="split contact">
+						<section class="alt">
+							<h3>Address</h3>
+							<p>Pl. Constitució nº8<br />
+							Santa Coloma de Cervelló, Barcelona, 08690</p>
+						</section>
+						<section>
+							<h3>Phone</h3>
+							<p>(+34) 673 85 34 84</a></p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p><a href="mailto:enric.quilabert@enti.cat">enric.quilabert@enti.cat</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://twitter.com/EnricGamedev" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://github.com/enricqg" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/enricqg/" class="icon brands alt fa-linkedin"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
